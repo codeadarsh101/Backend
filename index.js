@@ -18,6 +18,10 @@ app.get('/about',(req,res)=>{
    res.send('About Section')
 })
 
+app.get('/signup',(req,res)=>{
+   res.send('New User is come on website')
+})
+
 app.listen(process.env.PORT,()=>{
     console.log(`App is Listening on port ${port}`);
 })
